@@ -60,12 +60,12 @@ public class Main {
 
         // 4 - получить переполнение при арифметической операции
 
-        float h = Float.MAX_VALUE;
-        float i = h * 2;
-        System.out.println(i);
+        float floatMaxValue = Float.MAX_VALUE;
+        float floatOverflow = floatMaxValue * 2;
+        System.out.println(floatOverflow);
 
-        int j = Integer.MAX_VALUE;
-        int k = j +1;
-        System.out.println(k);
+        int intMaxValue = Integer.MAX_VALUE;
+        int intOverflow = intMaxValue +1;
+        System.out.println(intOverflow);
     }
 }
